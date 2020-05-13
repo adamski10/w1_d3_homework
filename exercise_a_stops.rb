@@ -22,7 +22,14 @@ stops.delete_at(2)
 p stops.count
 
 #8. Show as many ways as you can to return "Falkirk High" from the array?
+stops.delete_at(2)
+stops.slice!(2)
+stops.delete("Falkirk High")
+
+
 #9. Reverse the positions of the stops in the array
+
+
 #10 Print out all the stops using a for loop
 
 p stops
